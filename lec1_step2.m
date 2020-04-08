@@ -20,11 +20,11 @@
 % DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 % OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 % USE OR OTHER DEALINGS IN THE SOFTWARE. */
-%% 
+%%
 % # @Time    : 2020-4-20 
 % # @Author  : Hiroaki Wagatsuma
 % # @Site    : https://github.com/hirowgit/1_matlab_basic_course
-% # @File    : lec1_step1.m
+% # @File    : lec1_step2.m
 % # @IDE     : MATLAB R2018a
 %%
 
