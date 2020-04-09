@@ -24,8 +24,10 @@
 % # @Time    : 2020-4-20 
 % # @Author  : Hiroaki Wagatsuma
 % # @Site    : https://github.com/hirowgit/1_matlab_basic_course
-% # @File    : lec1_step1.m
+% # @File    : see "this_file_name
 % # @IDE     : MATLAB R2018a
+%%
+this_file_name=
 %%
 
 a=[1,2,3,4]
