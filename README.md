@@ -28,12 +28,13 @@ Note: GNU Octave is more compatible with the original.
 figure(1); clf; t=0:0.1:2**pi; plot(t,sin(t));
  
  ## example2:  iterate in a loop
-k=0;
-for i=1:10
-  k=k+1;
- disp(k);
-end
----output---
+k=0; <br>
+for i=1:10<br>
+  k=k+1;<br>
+ disp(k);<br>
+end<br> 
+<br>
+---output---<br>
 
  1
 
@@ -59,7 +60,7 @@ end
 https://github.com/hirowgit/1_matlab_basic_course
 
 hirowgit/1_matlab_basic_course
-Language
+
 
  
 # Step1 
@@ -84,13 +85,13 @@ Similarly it can be written as follows:
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2.m#L33-L35
 
 lec1_step2.m:33-35
-<pre><code>a1=[1,2,3,4] a2=[1:4] a3=[1:1:4] </code></pre>
+<pre><code>a1=[1,2,3,4] <br>a2=[1:4] <br>a3=[1:1:4] </code></pre>
   
 ## Here is the result.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2/lec1_step2.html#L73-L85
 
 lec1_step2/lec1_step2.html:73-85
-<pre><code>a1 = 1 2 3 4 a2 = 1 2 3 4 a3 = 1 2 3 4 </code></pre>
+<pre><code>a1 = 1 2 3 4 <br> a2 = 1 2 3 4 <br>a3 = 1 2 3 4 </code></pre>
   
  
 ## Comment
@@ -113,7 +114,7 @@ Please compare the descriptions in  lec1step2.m (L33-L35) and lec1step3.m.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step3.m#L34-L41
 
 lec1_step3.m:34-41
-<pre><code>a1=[1,2,3,4]; a2=[1:4]; a3=[1:1:4]; disp(a1); disp(a2); disp(a3); </code></pre>
+<pre><code>a1=[1,2,3,4]; <br>a2=[1:4]; <br>a3=[1:1:4]; <br><br>disp(a1); <br>isp(a2);<br> disp(a3); <br></code></pre>
   
 The function “disp” output the result to the command line window.
 
@@ -121,7 +122,7 @@ The function “disp” output the result to the command line window.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step3/lec1_step3.html#L78-L80
 
 lec1_step3/lec1_step3.html:78-80
-<pre><code> 1 2 3 4 1 2 3 4 </code></pre>
+<pre><code> 1 2 3 4 <br>1 2 3 4 </code></pre>
   
 However there is no description of each prefix like “a1 =“,  “a2 =” and “a3 =“. If you want to add some kind of descriptions about names of variables, you can add like disp([‘a1 = ’, a1]); Or fprintf(‘a1 = [%d %d %d %d]\r\n’,a), as C programming language style.
 [‘a1 = ’, a1] means that a concatenation of two items into a matrix.
@@ -133,30 +134,36 @@ However there is no description of each prefix like “a1 =“,  “a2 =” and 
 ## Assignment 1-4A:
 In reference to the code lec1_step4.m generates a following matrix,
 
-1.0000    2.0000    3.0000    4.0000    5.0000    6.0000    7.0000 … 10.0000
- 0.6499    0.8942    0.7904    0.0114    0.6350    0.0614    0.4116 … 0.7793
-
-modify the code to generate the matrix consisting of integer numbers, like
-1 2 3 4 …
-7 3 1 9 …
+1.0000    2.0000    3.0000    4.0000    5.0000    6.0000    7.0000 … 10.0000<br>
+ 0.6499    0.8942    0.7904    0.0114    0.6350    0.0614    0.4116 … 0.7793<br>
+<br>
+modify the code to generate the matrix consisting of integer numbers, like<br>
+1 2 3 4 …<br>
+7 3 1 9 …<br>
 by considering arithmetic operations with “rand” function without any other MATLAB functions except “round” and “floor” functions.
 (Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
+<br>
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step4.m#L34-L39
 
 lec1_step4.m:34-39
-<pre><code>step=1:10; data=rand(1,length(step)); merged_data=[step; data]; disp(merged_data); </code></pre>
+<pre><code>
+step=1:10; <br>
+data=rand(1,length(step)); <br>
+merged_data=[step; data]; <br>
+disp(merged_data); <br>
+</code></pre>
   
 ## Assignment 1-4B:
-With respect to a following matrix,
-
-1 2 3 4 …
-7 3 1 9 …
-
-make a program to sort by second line, such as
-3 2 1 4 …
-1 3 7 9 …
-
-by using “sortrows” function.
+With respect to a following matrix,<br>
+<br>
+1 2 3 4 …<br>
+7 3 1 9 …<br>
+<br>
+make a program to sort by second line, such as<br>
+3 2 1 4 …<br>
+1 3 7 9 …<br>
+<br>
+by using “sortrows” function.<br>
 (Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
 https://www.mathworks.com/help/matlab/ref/double.sortrows.html
 
@@ -170,7 +177,13 @@ This is an example to plot a sequential data, i.e. temporal sequence, with a mod
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53.m#L34-L40
 
 lec1_step53.m:34-40
-<pre><code>dt=0.01; t=0:dt:2**pi; figure(1); clf; % plot(t,sin(t)); plot(t,sin(t),'.-'); grid on; </code></pre>
+<pre><code>
+dt=0.01; <br>
+t=0:dt:2**pi; <br>
+figure(1); clf; <br>
+plot(t,sin(t),'.-'); <br>
+grid on; <br>
+</code></pre>
   
 ## Here is the result.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53/lec1_step53_01.png
@@ -188,7 +201,15 @@ This is an example to plot a sequential data after adding noise, with a modifiab
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L35-L44
 
 lec1_step63.m:35-44
-<pre><code>dt=0.01; noise_level=0.1; t=0:dt:2**pi; data=noise_level.**(rand(1,length(t)).**2-1); figure(1); clf; plot(t,sin(t),'b.-'), hold on; % figure(2); clf; plot(t,data+sin(t),'r.'); grid on; </code></pre>
+<pre><code>
+dt=0.01; <br>
+noise_level=0.1; <br>
+t=0:dt:2**pi; <br>
+data=noise_level.**(rand(1,length(t)).**2-1); <br>
+figure(1); clf; <br>
+plot(t,sin(t),'b.-'), hold on; <br>
+plot(t,data+sin(t),'r.'); grid on; <br>
+</code></pre>
   
 ## Assignment 1-6A:
 Explain the reason why arithmetic operations with “rand” function is necessary  in the case of “(rand(1,length(t)).2-1)”
