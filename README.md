@@ -78,7 +78,7 @@ lec1_step1.m:34
 <pre><code>a=[1,2,3,4] </code></pre>
  <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
  
-# The result is here.
+## The result is here.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step1/lec1_step1.html#L71-L73
 
 lec1_step1/lec1_step1.html:71-73
