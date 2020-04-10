@@ -114,12 +114,19 @@ Please compare the descriptions in  lec1step2.m (L33-L35) and lec1step3.m.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step3.m#L34-L41
 
 lec1_step3.m:34-41
-<pre><code>a1=[1,2,3,4]; </code></pre><pre><code>
+<pre><code>
+a1=[1,2,3,4]; 
+
 a2=[1:4]; 
-</code></pre><pre><code>
-a3=[1:1:4]; </code></pre><pre><code>
-disp(a1); </code></pre><pre><code>disp(a2);</code></pre><pre><code>
- disp(a3); <br></code></pre>
+
+a3=[1:1:4]; 
+
+
+disp(a1); 
+
+disp(a2);
+
+ disp(a3);</code></pre>
   
 The function “disp” output the result to the command line window.
 
@@ -152,10 +159,13 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step4.m#L34-L
 
 lec1_step4.m:34-39
 <pre><code>
-step=1:10; </code></pre><pre><code>
-data=rand(1,length(step)); </code></pre><pre><code>
-merged_data=[step; data]; </code></pre><pre><code>
-disp(merged_data);</code></pre><pre><code>
+step=1:10; 
+
+data=rand(1,length(step)); 
+
+merged_data=[step; data]; 
+
+disp(merged_data);
 </code></pre>
   
 ## Assignment 1-4B:
@@ -183,11 +193,16 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53.m#L34-
 
 lec1_step53.m:34-40
 <pre><code>
-dt=0.01; </code></pre><pre><code>
-t=0:dt:2**pi; </code></pre><pre><code>
-figure(1); clf; </code></pre><pre><code>
-plot(t,sin(t),'.-'); </code></pre><pre><code>
-grid on; </code></pre><pre><code>
+dt=0.01; 
+
+t=0:dt:2**pi; 
+
+figure(1); clf; 
+
+plot(t,sin(t),'.-'); 
+
+grid on; 
+
 </code></pre>
   
 ## Here is the result.
