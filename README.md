@@ -98,11 +98,17 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2/lec1_st
 
 lec1_step2/lec1_step2.html:73-85
 <pre><code>
-a1 = 1 2 3 4 
+a1 = 
 
-a2 = 1 2 3 4 
+ 1 2 3 4 
 
-a3 = 1 2 3 4 
+a2 = 
+
+ 1 2 3 4 
+
+a3 = 
+
+ 1 2 3 4 
 </code></pre>
   
  
@@ -138,7 +144,7 @@ disp(a1);
 
 disp(a2);
 
- disp(a3);
+disp(a3);
  </code></pre>
   
 The function “disp” output the result to the command line window.
@@ -147,7 +153,11 @@ The function “disp” output the result to the command line window.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step3/lec1_step3.html#L78-L80
 
 lec1_step3/lec1_step3.html:78-80
-<pre><code> 1 2 3 4 </code></pre><pre><code>1 2 3 4 </code></pre>
+<pre><code> 
+1 2 3 4 
+
+1 2 3 4 
+</code></pre>
   
 However there is no description of each prefix like “a1 =“,  “a2 =” and “a3 =“. If you want to add some kind of descriptions about names of variables, you can add like disp([‘a1 = ’, a1]); Or fprintf(‘a1 = [%d %d %d %d]\r\n’,a), as C programming language style.
 [‘a1 = ’, a1] means that a concatenation of two items into a matrix.
