@@ -2,7 +2,7 @@
 
 %% publish individual codes and thier results
 suffST={'m','html','pdf','latex','xml','doc','ppt'}; typeST={'MATLAB','HTML','PDF','LaTeX','XML','Microsoft Word','Microsoft PowerPoint'}; 
-
+ 
 try    
     f_name(1:length(suffST))={this_file_tag};
     f_name2=cellfun(@(s1,s2) [s1,'.',s2],f_name,suffST,'UniformOutput',false);
