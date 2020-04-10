@@ -117,7 +117,7 @@ All codes generate the same result but those meanings are different. The first o
 
 ## Assignment 1-2:  
 Make type matrices as even number (evennum) and odd numbers (oddnum).
-(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
+
 
 
 
@@ -166,7 +166,7 @@ However there is no description of each prefix like “a1 =“,  “a2 =” and 
 
 ## Assignment 1-3:
   Explain the functional difference between fprintf(‘a1 = %d \r\n’,a) and fprintf(‘a1 = %d %d %d %d\r\n’,a), if a=[1 2 3 4].
-(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
+
 
 ## Assignment 1-4A:
 In reference to the code lec1_step4.m generates a following matrix,
@@ -178,7 +178,7 @@ modify the code to generate the matrix consisting of integer numbers, like<br>
 1 2 3 4 …<br>
 7 3 1 9 …<br>
 by considering arithmetic operations with “rand” function without any other MATLAB functions except “round” and “floor” functions.
-(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
+
 <br>
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step4.m#L34-L39
 
@@ -204,7 +204,7 @@ make a program to sort by second line, such as<br>
 1 3 7 9 …<br>
 <br>
 by using “sortrows” function.<br>
-(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
+
 https://www.mathworks.com/help/matlab/ref/double.sortrows.html
 
 mathworks.com
@@ -238,7 +238,7 @@ lec1_step53/lec1_step53_01.png
   
 ## Assignment 1-5A:
 Analyze what happing around 0 if the target function is defined as sin(1/x) by changing the step in the horizontal axis.
-(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
+
 
 # Step 6 
 ##  Plot data with noise
@@ -265,7 +265,7 @@ plot(t,data+sin(t),'r.'); grid on;
   
 ## Assignment 1-6A:
 Explain the reason why arithmetic operations with “rand” function is necessary  in the case of “(rand(1,length(t)).2-1)”
-(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)*
+*
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L37
 
 lec1_step63.m:37
@@ -282,7 +282,7 @@ lec1_step62/lec1_step62_01.png
 Obtain the fitting curve from the output data “data=noise_level.(rand(1,length(t)).2-1);”
 by using  “polyfit” MATLAB function (do not use other MATLAB functions) and then plot the result to compare the right answer as sin(x).
 
-(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
+
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L37-L38
 
 lec1_step63.m:37-38
