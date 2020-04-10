@@ -97,7 +97,13 @@ a3=[1:1:4]
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2/lec1_step2.html#L73-L85
 
 lec1_step2/lec1_step2.html:73-85
-<pre><code>a1 = 1 2 3 4 </code></pre><pre><code> a2 = 1 2 3 4 </code></pre><pre><code>a3 = 1 2 3 4 </code></pre>
+<pre><code>
+a1 = 1 2 3 4 
+
+a2 = 1 2 3 4 
+
+a3 = 1 2 3 4 
+</code></pre>
   
  
 ## Comment
