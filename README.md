@@ -14,10 +14,10 @@ https://www.mathworks.com/products/matlab/student.html?s_tid=products_stu_versio
 https://www.mathworks.com/campaigns/products/trials.highResolutionDisplay.html
 
 3) Comatible softwares
-** GNU Octave
+* GNU Octave
 http://www.gnu.org/software/octave/
 
-** Scilab 
+* Scilab 
 http://www.scilab.org/var/ezflow_site/storage/images/homepage_block_links/scilab/6583-1-fre-FR/
 
 Note: GNU Octave is more compatible with the original.
@@ -25,7 +25,7 @@ Note: GNU Octave is more compatible with the original.
 # Lecture1 
 ## example1: draw a graph
 
-figure(1); clf; t=0:0.1:2**pi; plot(t,sin(t));
+figure(1); clf; t=0:0.1:2*pi; plot(t,sin(t));
  
  ## example2:  iterate in a loop
 k=0; <br>
@@ -220,7 +220,7 @@ lec1_step53.m:34-40
 <pre><code>
 dt=0.01; 
 
-t=0:dt:2**pi; 
+t=0:dt:2*pi; 
 
 figure(1); clf; 
 
@@ -251,9 +251,9 @@ dt=0.01;
 
 noise_level=0.1; 
 
-t=0:dt:2**pi; 
+t=0:dt:2*pi; 
 
-data=noise_level.**(rand(1,length(t)).**2-1); 
+data=noise_level.*(rand(1,length(t)).*2-1); 
 
 figure(1); clf; 
 
@@ -265,11 +265,11 @@ plot(t,data+sin(t),'r.'); grid on;
   
 ## Assignment 1-6A:
 Explain the reason why arithmetic operations with “rand” function is necessary  in the case of “(rand(1,length(t)).2-1)”
-(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)**
+(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)*
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L37
 
 lec1_step63.m:37
-<pre><code>data=noise_level.**(rand(1,length(t)).**2-1); </code></pre>
+<pre><code>data=noise_level.*(rand(1,length(t)).*2-1); </code></pre>
  
 ## Hint: 
 compare the code “lec1_step62.m.”
@@ -286,7 +286,7 @@ by using  “polyfit” MATLAB function (do not use other MATLAB functions) and 
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L37-L38
 
 lec1_step63.m:37-38
-<pre><code>data=noise_level.**(rand(1,length(t)).**2-1); </code></pre>
+<pre><code>data=noise_level.*(rand(1,length(t)).*2-1); </code></pre>
  
 ## Hint: 
 “polyfit” MATLAB function, Polynomial curve fitting
