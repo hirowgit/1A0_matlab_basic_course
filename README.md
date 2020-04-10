@@ -105,18 +105,8 @@ All codes generate the same result but those meanings are different. The first o
 Assignment 1-2:  Make type matrices as even number (evennum) and odd numbers (oddnum).
 (Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
 
-B011K6EEN8J  2020-04-10 17:28:14
-*講義1 _step1_ *マトリックスの作り方 レクチャーを始めましょう。 1,2,3,4のような自然数について考えてみましょう... もっと。 まず、プログラミングは一種の自動化、つまり論理的な抽象化です。 あなたは [1,2,3,4,..... のような行列を設計することができます N] (N は終端を表し、「a」という名前を付けます。 このコードとして扱うことができます。
- *@waga — * _ *Lecture1 _step1_ *How to make a matrix. Let us start the lecture. Think about a natural number like 1,2,3,4,… more. In the first place, the programming is a kind of automation, or logical abstraction. You can design a matrix like [1,2,3,4, ….. N], where N represents the termination, an…
-B011K6EEN8J  2020-04-10 17:29:03
-*講義1 _step2_* その他の行列表記 同様に、次のように書くことができます。
- *@waga — * _ *Lecture1 _step2_*  Other matrix notation Similarly it can be written as follows: _
-B011K6EEN8J  2020-04-10 17:29:23
-すべてのコードは同じ結果を生成しますが、それらの意味は異なります。 最初のものは基本的なタイプですが、すべての数字を入力する必要があります。 2番目の方法では、一種の自動化が実現されました。つまり、開始番号と終了番号だけを入力するだけです。 あなたのエネルギーを節約することができます。 3番目のケースは拡張です。 2番目のものを見ると、さらに疑問があるかもしれません。 したがって、「なぜ「1」の間隔で数字が増加するのですか？ はい、これは正しい質問です。 ステップを制御するには、1：3：15、または0：0.5：10などのように「：" を追加します。
- *@waga — * _ All codes generate the same result but those meanings are different. The first one is the basic type, but you have to type every numbers. In the second one, a kind of automation was realized, which means that you just type starting and ending numbers only. You can save your energy. The …
-B011K6EEN8J  2020-04-10 17:29:44
-*代入 1-2: * 型行列を偶数 (偶数) と奇数 (奇数) として作ります. _* (ここに答えを入力しないでください。 KWM（キーワード会議）Webに招待します*_（編集済み）
- *@waga — * _ *Assignment 1-2:*  Make type matrices as even number (even_num) and odd numbers (odd_num). _*(Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)*_ （編集済み） _
+
+
  waga  2020-04-10 19:24:45
 Lecture1 step3 Display the result
 According to the description rule of MATLAB, “;” represents termination of the single line code.
