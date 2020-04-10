@@ -29,7 +29,6 @@ figure(1); clf; t=0:0.1:2**pi; plot(t,sin(t));
 
 image.png
  
- # Lecture1 
  ## example2:  iterate in a loop
 k=0;
 for i=1:10
