@@ -1,4 +1,4 @@
-# 1_matlab_basic_course
+# 1A_matlab_basic_course
 
  
 # MATLAB Install
@@ -57,7 +57,7 @@ end
 
 10
 
-# Lecture1 deal with a matrix to plot a graph
+# Lecture1: deal with a matrix to plot a graph
 https://github.com/hirowgit/1_matlab_basic_course
 
 hirowgit/1_matlab_basic_course
@@ -65,8 +65,8 @@ Language
 
  <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
 
-# Lecture1 
-## step1 How to make a matrix.
+# Step1 
+##  How to make a matrix.
 Let us start the lecture. Think about a natural number like 1,2,3,4,… more.
 In the first place, the programming is a kind of automation, or logical abstraction.
 You can design a matrix like [1,2,3,4, ….. N], where N represents the termination, and name “a.” It can be treated as this code.
@@ -83,8 +83,8 @@ lec1_step1/lec1_step1.html:71-73
 <pre><code>a = 1 2 3 4 </code></pre>
  <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
 
-# Lecture1 
-## step2  Other matrix notation
+# Step2 
+##   Other matrix notation
 Similarly it can be written as follows:
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2.m#L33-L35
 
@@ -109,8 +109,8 @@ Make type matrices as even number (evennum) and odd numbers (oddnum).
 
 
 
-# Lecture1 
-## step3 Display the result
+# Step3 
+##  Display the result
 According to the description rule of MATLAB, “;” represents termination of the single line code.
 Therefore you usually type the code “;” at the end of the line to terminate, while the line works well without the termination code.
 If you skip the code, the system outputs the result of the single line to the command line window.
@@ -174,8 +174,8 @@ mathworks.com
 Sort rows of matrix or table - MATLAB sortrows
 This MATLAB function sorts the rows of a matrix in ascending order based on the elements in the first column.
 
-# Lecture1 
-## step5 Plot data
+# Step5 
+##  Plot data
 This is an example to plot a sequential data, i.e. temporal sequence, with a modifiable step width  “dt.”
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53.m#L34-L40
 
@@ -194,8 +194,8 @@ lec1_step53/lec1_step53_01.png
 Analyze what happing around 0 if the target function is defined as sin(1/x) by changing the step in the horizontal axis.
 (Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
 
-# Lecture1 
-## step6 Plot data with noise
+# Step6 
+##  Plot data with noise
 This is an example to plot a sequential data after adding noise, with a modifiable level of noise by “noise_level.”
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L35-L44
 
