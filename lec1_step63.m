@@ -30,7 +30,7 @@
 % # @File    : lec1_step63.m
 
 %%  Main program
-
+ 
 
 dt=0.01; noise_level=0.1;
 t=0:dt:2*pi;
