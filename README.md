@@ -62,9 +62,7 @@ https://github.com/hirowgit/1_matlab_basic_course
 
 hirowgit/1_matlab_basic_course
 Language
-<p>HTML</p>
-Last updated
-<p>13 minutes ago</p>
+
  <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
 
 # Lecture1 
@@ -102,7 +100,8 @@ lec1_step2/lec1_step2.html:73-85
  <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
  
  
-### All codes generate the same result but those meanings are different. The first one is the basic type, but you have to type every numbers. In the second one,  a kind of automation was realized, which means that you just type starting and ending numbers only. You can save your energy. The third case is an extension. You may have a further doubt when you see the second one. Thus,  “why does the number increase at intervals of “1” ? Yes, this is the right question. You can control the step by adding more “:” for example 1: 3: 15, or 0: 0.5: 10.
+## Comment
+All codes generate the same result but those meanings are different. The first one is the basic type, but you have to type every numbers. In the second one,  a kind of automation was realized, which means that you just type starting and ending numbers only. You can save your energy. The third case is an extension. You may have a further doubt when you see the second one. Thus,  “why does the number increase at intervals of “1” ? Yes, this is the right question. You can control the step by adding more “:” for example 1: 3: 15, or 0: 0.5: 10.
 
 ## Assignment 1-2:  
 Make type matrices as even number (evennum) and odd numbers (oddnum).
