@@ -85,13 +85,13 @@ Similarly it can be written as follows:
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2.m#L33-L35
 
 lec1_step2.m:33-35
-<pre><code>a1=[1,2,3,4] <br>a2=[1:4] <br>a3=[1:1:4] </code></pre>
+<pre><code>a1=[1,2,3,4] </code></pre><pre><code> a2=[1:4] </code></pre><pre><code>a3=[1:1:4] </code></pre>
   
 ## Here is the result.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2/lec1_step2.html#L73-L85
 
 lec1_step2/lec1_step2.html:73-85
-<pre><code>a1 = 1 2 3 4 <br> a2 = 1 2 3 4 <br>a3 = 1 2 3 4 </code></pre>
+<pre><code>a1 = 1 2 3 4 </code></pre><pre><code> a2 = 1 2 3 4 </code></pre><pre><code>a3 = 1 2 3 4 </code></pre>
   
  
 ## Comment
@@ -114,7 +114,12 @@ Please compare the descriptions in  lec1step2.m (L33-L35) and lec1step3.m.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step3.m#L34-L41
 
 lec1_step3.m:34-41
-<pre><code>a1=[1,2,3,4]; <br>a2=[1:4]; <br>a3=[1:1:4]; <br><br>disp(a1); <br>isp(a2);<br> disp(a3); <br></code></pre>
+<pre><code>a1=[1,2,3,4]; </code></pre><pre><code>
+a2=[1:4]; 
+</code></pre><pre><code>
+a3=[1:1:4]; </code></pre><pre><code>
+disp(a1); </code></pre><pre><code>disp(a2);</code></pre><pre><code>
+ disp(a3); <br></code></pre>
   
 The function “disp” output the result to the command line window.
 
@@ -122,7 +127,7 @@ The function “disp” output the result to the command line window.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step3/lec1_step3.html#L78-L80
 
 lec1_step3/lec1_step3.html:78-80
-<pre><code> 1 2 3 4 <br>1 2 3 4 </code></pre>
+<pre><code> 1 2 3 4 </code></pre><pre><code>1 2 3 4 </code></pre>
   
 However there is no description of each prefix like “a1 =“,  “a2 =” and “a3 =“. If you want to add some kind of descriptions about names of variables, you can add like disp([‘a1 = ’, a1]); Or fprintf(‘a1 = [%d %d %d %d]\r\n’,a), as C programming language style.
 [‘a1 = ’, a1] means that a concatenation of two items into a matrix.
@@ -147,10 +152,10 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step4.m#L34-L
 
 lec1_step4.m:34-39
 <pre><code>
-step=1:10; <br>
-data=rand(1,length(step)); <br>
-merged_data=[step; data]; <br>
-disp(merged_data); <br>
+step=1:10; </code></pre><pre><code>
+data=rand(1,length(step)); </code></pre><pre><code>
+merged_data=[step; data]; </code></pre><pre><code>
+disp(merged_data);</code></pre><pre><code>
 </code></pre>
   
 ## Assignment 1-4B:
@@ -178,11 +183,11 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53.m#L34-
 
 lec1_step53.m:34-40
 <pre><code>
-dt=0.01; <br>
-t=0:dt:2**pi; <br>
-figure(1); clf; <br>
-plot(t,sin(t),'.-'); <br>
-grid on; <br>
+dt=0.01; </code></pre><pre><code>
+t=0:dt:2**pi; </code></pre><pre><code>
+figure(1); clf; </code></pre><pre><code>
+plot(t,sin(t),'.-'); </code></pre><pre><code>
+grid on; </code></pre><pre><code>
 </code></pre>
   
 ## Here is the result.
@@ -202,13 +207,13 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L35-
 
 lec1_step63.m:35-44
 <pre><code>
-dt=0.01; <br>
-noise_level=0.1; <br>
-t=0:dt:2**pi; <br>
-data=noise_level.**(rand(1,length(t)).**2-1); <br>
-figure(1); clf; <br>
-plot(t,sin(t),'b.-'), hold on; <br>
-plot(t,data+sin(t),'r.'); grid on; <br>
+dt=0.01; </code></pre><pre><code>
+noise_level=0.1; </code></pre><pre><code>
+t=0:dt:2**pi; </code></pre><pre><code>
+data=noise_level.**(rand(1,length(t)).**2-1); </code></pre><pre><code>
+figure(1); clf; </code></pre><pre><code>
+plot(t,sin(t),'b.-'), hold on; </code></pre><pre><code>
+plot(t,data+sin(t),'r.'); grid on; </code></pre><pre><code>
 </code></pre>
   
 ## Assignment 1-6A:
