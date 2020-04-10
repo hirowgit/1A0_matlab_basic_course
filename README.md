@@ -34,7 +34,8 @@ for i=1:10
  disp(k);
 end
 ---output---
-     1
+
+ 1
 
  2
 
