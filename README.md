@@ -63,7 +63,7 @@ hirowgit/1_matlab_basic_course
 
 
  
-# Step　1 
+# Step 1 
 ##  How to make a matrix.
 Let us start the lecture. Think about a natural number like 1,2,3,4,… more.
 In the first place, the programming is a kind of automation, or logical abstraction.
@@ -79,7 +79,7 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step1/lec1_st
 lec1_step1/lec1_step1.html:71-73
 <pre><code>a = 1 2 3 4 </code></pre>
  
-# Step　2 
+# Step 2 
 ##   Other matrix notation
 Similarly it can be written as follows:
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2.m#L33-L35
@@ -121,7 +121,7 @@ Make type matrices as even number (evennum) and odd numbers (oddnum).
 
 
 
-# Step　3 
+# Step 3 
 ##  Display the result
 According to the description rule of MATLAB, “;” represents termination of the single line code.
 Therefore you usually type the code “;” at the end of the line to terminate, while the line works well without the termination code.
@@ -211,7 +211,7 @@ mathworks.com
 Sort rows of matrix or table - MATLAB sortrows
 This MATLAB function sorts the rows of a matrix in ascending order based on the elements in the first column.
 
-# Step　5 
+# Step 5 
 ##  Plot data
 This is an example to plot a sequential data, i.e. temporal sequence, with a modifiable step width  “dt.”
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53.m#L34-L40
@@ -240,7 +240,7 @@ lec1_step53/lec1_step53_01.png
 Analyze what happing around 0 if the target function is defined as sin(1/x) by changing the step in the horizontal axis.
 (Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
 
-# Step　6 
+# Step 6 
 ##  Plot data with noise
 This is an example to plot a sequential data after adding noise, with a modifiable level of noise by “noise_level.”
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L35-L44
