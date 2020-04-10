@@ -26,8 +26,6 @@ Note: GNU Octave is more compatible with the original.
 ## example1: draw a graph
 
 figure(1); clf; t=0:0.1:2**pi; plot(t,sin(t));
-
-image.png
  
  ## example2:  iterate in a loop
 k=0;
