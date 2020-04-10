@@ -61,8 +61,7 @@ https://github.com/hirowgit/1_matlab_basic_course
 hirowgit/1_matlab_basic_course
 Language
 
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
-
+ 
 # Step1 
 ##  How to make a matrix.
 Let us start the lecture. Think about a natural number like 1,2,3,4,… more.
@@ -72,15 +71,13 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step1.m#L34
 
 lec1_step1.m:34
 <pre><code>a=[1,2,3,4] </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
 ## The result is here.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step1/lec1_step1.html#L71-L73
 
 lec1_step1/lec1_step1.html:71-73
 <pre><code>a = 1 2 3 4 </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
-
+ 
 # Step2 
 ##   Other matrix notation
 Similarly it can be written as follows:
@@ -88,15 +85,13 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2.m#L33-L
 
 lec1_step2.m:33-35
 <pre><code>a1=[1,2,3,4] a2=[1:4] a3=[1:1:4] </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
 ## Here is the result.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2/lec1_step2.html#L73-L85
 
 lec1_step2/lec1_step2.html:73-85
 <pre><code>a1 = 1 2 3 4 a2 = 1 2 3 4 a3 = 1 2 3 4 </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
  
 ## Comment
 All codes generate the same result but those meanings are different. The first one is the basic type, but you have to type every numbers. In the second one,  a kind of automation was realized, which means that you just type starting and ending numbers only. You can save your energy. The third case is an extension. You may have a further doubt when you see the second one. Thus,  “why does the number increase at intervals of “1” ? Yes, this is the right question. You can control the step by adding more “:” for example 1: 3: 15, or 0: 0.5: 10.
@@ -119,8 +114,7 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step3.m#L34-L
 
 lec1_step3.m:34-41
 <pre><code>a1=[1,2,3,4]; a2=[1:4]; a3=[1:1:4]; disp(a1); disp(a2); disp(a3); </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
 The function “disp” output the result to the command line window.
 
 ## Here is the result.
@@ -128,8 +122,7 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step3/lec1_st
 
 lec1_step3/lec1_step3.html:78-80
 <pre><code> 1 2 3 4 1 2 3 4 </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
 However there is no description of each prefix like “a1 =“,  “a2 =” and “a3 =“. If you want to add some kind of descriptions about names of variables, you can add like disp([‘a1 = ’, a1]); Or fprintf(‘a1 = [%d %d %d %d]\r\n’,a), as C programming language style.
 [‘a1 = ’, a1] means that a concatenation of two items into a matrix.
 
@@ -152,8 +145,7 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step4.m#L34-L
 
 lec1_step4.m:34-39
 <pre><code>step=1:10; data=rand(1,length(step)); merged_data=[step; data]; disp(merged_data); </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
 ## Assignment 1-4B:
 With respect to a following matrix,
 
@@ -179,15 +171,13 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53.m#L34-
 
 lec1_step53.m:34-40
 <pre><code>dt=0.01; t=0:dt:2**pi; figure(1); clf; % plot(t,sin(t)); plot(t,sin(t),'.-'); grid on; </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
 ## Here is the result.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53/lec1_step53_01.png
 
 lec1_step53/lec1_step53_01.png
  
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
 ## Assignment 1-5A:
 Analyze what happing around 0 if the target function is defined as sin(1/x) by changing the step in the horizontal axis.
 (Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)
@@ -199,8 +189,7 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L35-
 
 lec1_step63.m:35-44
 <pre><code>dt=0.01; noise_level=0.1; t=0:dt:2**pi; data=noise_level.**(rand(1,length(t)).**2-1); figure(1); clf; plot(t,sin(t),'b.-'), hold on; % figure(2); clf; plot(t,data+sin(t),'r.'); grid on; </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
 ## Assignment 1-6A:
 Explain the reason why arithmetic operations with “rand” function is necessary  in the case of “(rand(1,length(t)).2-1)”
 (Please do not type your answer here. I will invite you in KWM (Key Words Meeting) Web)**
@@ -208,16 +197,14 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L37
 
 lec1_step63.m:37
 <pre><code>data=noise_level.**(rand(1,length(t)).**2-1); </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
-
+ 
 ## Hint: 
 compare the code “lec1_step62.m.”
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step62/lec1_step62_01.png
 
 lec1_step62/lec1_step62_01.png
  
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
- 
+  
 ## Assignment 1-6B:
 Obtain the fitting curve from the output data “data=noise_level.(rand(1,length(t)).2-1);”
 by using  “polyfit” MATLAB function (do not use other MATLAB functions) and then plot the result to compare the right answer as sin(x).
@@ -227,8 +214,7 @@ https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step63.m#L37-
 
 lec1_step63.m:37-38
 <pre><code>data=noise_level.**(rand(1,length(t)).**2-1); </code></pre>
- <a href="https://github.com/hirowgit/1_matlab_basic_course">hirowgit/1_matlab_basic_course</a>
-
+ 
 ## Hint: 
 “polyfit” MATLAB function, Polynomial curve fitting
 https://www.mathworks.com/help/matlab/ref/polyfit.html
