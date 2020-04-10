@@ -23,14 +23,14 @@ http://www.scilab.org/var/ezflow_site/storage/images/homepage_block_links/scilab
 Note: GNU Octave is more compatible with the original.
 
 # Lecture1 
-## example: draw a graph
+## example1: draw a graph
 
 figure(1); clf; t=0:0.1:2**pi; plot(t,sin(t));
 
 image.png
  
  # Lecture1 
- ## topic3 iterate in a loop
+ ## example2:  iterate in a loop
 k=0;
 for i=1:10
   k=k+1;
