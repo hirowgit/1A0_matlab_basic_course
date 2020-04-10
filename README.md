@@ -85,7 +85,13 @@ Similarly it can be written as follows:
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2.m#L33-L35
 
 lec1_step2.m:33-35
-<pre><code>a1=[1,2,3,4] </code></pre><pre><code> a2=[1:4] </code></pre><pre><code>a3=[1:1:4] </code></pre>
+<pre><code>
+a1=[1,2,3,4] 
+
+a2=[1:4] 
+
+a3=[1:1:4] 
+</code></pre>
   
 ## Here is the result.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step2/lec1_step2.html#L73-L85
@@ -126,7 +132,8 @@ disp(a1);
 
 disp(a2);
 
- disp(a3);</code></pre>
+ disp(a3);
+ </code></pre>
   
 The function “disp” output the result to the command line window.
 
