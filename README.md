@@ -157,6 +157,8 @@ lec1_step3/lec1_step3.html:78-80
 1 2 3 4 
 
 1 2 3 4 
+
+1 2 3 4 
 </code></pre>
   
 However there is no description of each prefix like “a1 =“,  “a2 =” and “a3 =“. If you want to add some kind of descriptions about names of variables, you can add like disp([‘a1 = ’, a1]); Or fprintf(‘a1 = [%d %d %d %d]\r\n’,a), as C programming language style.
