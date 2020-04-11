@@ -233,7 +233,7 @@ grid on;
 ## Here is the result.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53/lec1_step53_01.png
 
-lec1_step53/lec1_step53_01.png
+(https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53/lec1_step53_01.png)
  
   
 ## Assignment 1-5A:
