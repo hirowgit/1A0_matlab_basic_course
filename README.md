@@ -233,7 +233,7 @@ grid on;
 ## Here is the result.
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53/lec1_step53_01.png
 
-![lec1_step53_01.png](https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53/lec1_step53_01.png "サンプル")
+![lec1_step53_01.png](https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step53/lec1_step53_01.png "lec1_step53_01.png")
  
   
 ## Assignment 1-5A:
@@ -275,7 +275,7 @@ lec1_step63.m:37
 compare the code “lec1_step62.m.”
 https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step62/lec1_step62_01.png
 
-lec1_step62/lec1_step62_01.png
+![lec1_step62_01.png](https://github.com/hirowgit/1_matlab_basic_course/blob/master/lec1_step62/lec1_step62_01.png "lec1_step62_01.png" height="100")
  
   
 ## Assignment 1-6B:
