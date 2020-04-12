@@ -4,24 +4,24 @@
 # MATLAB Install
  There are  ways to use MATLAB codes as follows:
 
-1) Matlab Online
-No installation into your PC physically, you can test codes in the web browser.
-https://www.mathworks.com/products/matlab-online.html
+### 1) Matlab Online  
+No installation into your PC physically, you can test codes in the web browser.  
+https://www.mathworks.com/products/matlab-online.html  
 Check your licence 
-https://www.mathworks.com/products/matlab/student.html?s_tid=products_stu_version
-
-2) Trial licence for 30 days 
-https://www.mathworks.com/campaigns/products/trials.highResolutionDisplay.html
-
-3) Comatible softwares
-* GNU Octave
-http://www.gnu.org/software/octave/
-
-* Scilab 
-http://www.scilab.org/var/ezflow_site/storage/images/homepage_block_links/scilab/6583-1-fre-FR/
-
-Note: GNU Octave is more compatible with the original.
-
+https://www.mathworks.com/products/matlab/student.html?s_tid=products_stu_version  
+  
+### 2) Trial licence for 30 days   
+https://www.mathworks.com/campaigns/products/trials.highResolutionDisplay.html  
+  
+### 3) Comatible softwares  
+#### * GNU Octave  
+http://www.gnu.org/software/octave/  
+  
+#### * Scilab   
+http://www.scilab.org/var/ezflow_site/storage/images/homepage_block_links/scilab/6583-1-fre-FR/  
+  
+Note: GNU Octave is more compatible with the original.  
+  
 # Lecture 1 
 ## example 1: draw a graph
 
