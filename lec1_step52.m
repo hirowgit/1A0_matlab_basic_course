@@ -31,7 +31,7 @@
 
 %%  Main program
 
-t=0:0.1:2*pi;
+t=0:0.1:2*pi; 
 
 figure(1); clf;
 % plot(t,sin(t));
